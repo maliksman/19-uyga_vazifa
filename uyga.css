@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%;
+    height: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.birinchi {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.sariq {
+    color: yellow;
+}
+
+.ikkinchi {
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.uchinchi {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
